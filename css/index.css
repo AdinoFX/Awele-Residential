@@ -140,6 +140,7 @@ header{
         text-align: center;
     }
     .hide-brochure{
+        display: inline-block;
         text-align: center;
     }
     .open-menu, .close-menu {display: block;}
@@ -149,9 +150,6 @@ header{
 @media(max-width: 1000px){
     .brochure a{
         display: none;
-    }
-    .hide-brochure{
-        display: inline-block;
     }
 }
 
@@ -434,12 +432,9 @@ body {
         align-items: center;
     }
 
-    header .navigation ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+   
 
-    header .nav-content h1 {
+    header h1 {
         font-size: 36px;
     }
 
@@ -449,6 +444,7 @@ body {
 
     .features .image-styles {
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .contact .contact-content .contact-box {
@@ -473,7 +469,7 @@ body {
         padding: 10px 5%;
     }
 
-    header .nav-content h1 {
+    header h1 {
         font-size: 24px;
     }
 
@@ -481,6 +477,12 @@ body {
         padding: 0 10px;
     }
 
+    .features{
+        margin-top: 20px;
+    }
+    .features .image-styles{
+        flex-wrap: wrap;
+    }
     .features .images {
         width: 100%;
     }
