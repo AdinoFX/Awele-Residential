@@ -418,6 +418,15 @@ body {
 
 /* Mobile styles */
 @media (max-width: 480px) {
-    
+    .attention{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .attention p{
+        font-size: 12px;
+    }
+    .attention h1{
+        font-size: 20px;
+    }
     
 }
