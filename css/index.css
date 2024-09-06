@@ -410,23 +410,22 @@ body {
 
 
 /* Tablet styles */
-@media (max-width: 768px) {
-    
+@media screen and (max-width: 480px) {
+    .attention {
+        width: 100%; /* Full width on small screens */
+        margin: 30px auto;
+    }
 
-    
-}
+    .attention p {
+        font-size: 14px; /* Smaller font size */
+        padding: 10px;
+    }
 
-/* Mobile styles */
-@media (max-width: 480px) {
-    .attention{
-        width: 100%;
-        margin: 10px auto;
+    .attention h1 {
+        font-size: 32px; /* Smaller heading */
     }
-    .attention p{
-        font-size: 12px;
+
+    .attention i {
+        font-size: 2em; /* Adjust the size of the icon */
     }
-    .attention h1{
-        font-size: 20px;
-    }
-    
 }
