@@ -233,7 +233,6 @@ header{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 3rem;
-    overflow: hidden;
 }
 
 .features .feature-content .image-styles .images{
@@ -407,8 +406,8 @@ header{
 
     /*feature section */
     .features{
-        overflow: hidden;
-    }♦♦
+        overflow: scroll;
+    }
     .feature-content, .faq, .contact-content h2{
         font-size: 20px;
     }
@@ -436,18 +435,20 @@ header{
     }
     .social ul{
         display: flex;
+        justify-content: space-evenly;
     }
-    .social ul li{
-        text-align: center;
-        font-size: 14px;
+    .social ul li a{
+        font-size: 13px;
+    }
+    .social ul li a i{
+        font-size: 13px;
     }
     .numbers{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
     }
     .hide{display: none;}
     .numbers p{
-        font-size: 12px;
+        font-size: 13px;
     }
 }
