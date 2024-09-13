@@ -380,6 +380,7 @@ header{
     text-align: center;
 }
 #countdown{
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -478,9 +479,10 @@ header{
         box-sizing: border-box;
         flex-wrap: wrap;
         align-items: center;
+        padding: 20px;
     }
     .counter{
-        padding: 20px 35px;
+        padding: 30px;
         margin-top: 10px;
     }
 }
