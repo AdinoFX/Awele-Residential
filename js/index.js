@@ -34,3 +34,21 @@ function initializeCountdown(endDate) {
 // Set the date we're counting down to
 const endDate = new Date('2024-09-30T23:59:59').getTime();
 initializeCountdown(endDate);
+
+
+// ongoing project
+let currentIndex = 1;
+        const totalSlides = 4; // Number of slides
+        const intervalTime = 3000; // Time in milliseconds (3 seconds)
+
+        // Function to auto-slide
+        function autoSlide() {
+            currentIndex++;
+            if (currentIndex > totalSlides) {
+                currentIndex = 1; // Loop back to the first slide
+            }
+            document.getElementById('img' + currentIndex).checked = true;
+        }
+
+        // Set interval to change slide every 3 seconds
+        setInterval(autoSlide, intervalTime);
